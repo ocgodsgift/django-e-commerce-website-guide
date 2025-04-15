@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'shop',
 ]
 
+TEMPLATES =[
+      DIRS = [os.path.join(BASE_DIR, 'templates')],
+]
+
 # Add at the bottom
 import os
 MEDIA_URL = '/media/'
